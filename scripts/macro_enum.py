@@ -139,3 +139,29 @@ class ResourceControl(Enum):
     ERASE = "erase"
     # Removes existing resources or constructs outright
     # Nullifies setups, shields, or persistent threats
+
+# Global skill container
+SKILL_REGISTRY = {}
+
+# Skill record template
+skill_identity = {
+    "champion": "",          
+    "skill_uid": "",        
+    
+    "core_function": "",
+    
+    "identify_vector": {
+        "space": [],     
+        "tempo": [],     
+        "info": [],      
+        "agency": [],   
+        "resource": []   
+    },
+    "execution_profiles": [
+        {
+            "profile_id": "",        
+            "trigger_condition": "", 
+            "notes": ""              
+        }
+    ]
+}
