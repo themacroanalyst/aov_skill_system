@@ -54,7 +54,7 @@ class TempoControl(Enum):
     # Forces fights or situations to be replayed on new terms
 
 
-class InformationControl(str, Enum):
+class InformationControl(Enum):
     NONE = "none"
     # Does not meaningfully affect what either team knows
 
@@ -108,7 +108,7 @@ class AgencyControl(Enum):
     # Enables effects that ignore normal constraints
 
 
-class ResourceControl(str, Enum):
+class ResourceControl(Enum):
     NONE = "none"
     # Does not meaningfully affect resource states
 
